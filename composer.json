@@ -1,0 +1,25 @@
+{
+    "name": "affinity4/faker",
+    "description": "Faker Providers for Ireland specific data (Streets, Towns, Counties, Eircodes, OSI Grid References, Landline Phone Numbers, Mobile Phone NUmbers). NOTE: Does not include Northern Ireland",
+    "version": "0.0.1",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Affinity4\\Faker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luke Watts",
+            "email": "luke@affinity4.ie"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "fakerphp/faker": "^1.23"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}

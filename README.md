@@ -26,7 +26,7 @@ $faker->address(); // 123C Pearse Heights, Arklow, Galway, Ireland, V50 Z9U1
 #### Address
 
 ```php
-$faker->buildingNumber(); // 123C Pearse Heights, Arklow, Galway, Ireland, V50 Z9U1
+$faker->address(); // 123C Pearse Heights, Arklow, Galway, Ireland, V50 Z9U1
 ```
 
 #### Building Number
